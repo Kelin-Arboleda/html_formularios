@@ -1,0 +1,18 @@
+#tabla{
+	background: #85C1E9
+}
+.frmdatos input: required, .frmdatos textarea: required{
+	background: #fff url(../imagenes/red_asterisk.png)
+	no-repeat 98% center
+}
+
+.frmdatos input: required:valid, .frmdatos textarea: required{
+	background: #fff url(../imagenes/valid.png)
+	no-repeat 98% center
+	box-shadow: 0.0.5px
+	border-color:#b03535;
+}
+
+.frmdatos input: required:invalid, .frmdatos textarea: focus:inva{
+	background: #fff url(../imagenes/invalid.png)
+}

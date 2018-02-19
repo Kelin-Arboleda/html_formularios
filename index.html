@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>Tabla</title>
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	</head>
+	<body>
+		<form name="frmdatos" class="frmdatos" method="POST" action="#">
+			<table border="solid" align="center" id="tabla">
+				<tr align="center">
+					<td>
+						<h3>Nombre</h3>
+					</td>
+					<td>
+						<h3>Valor</h3>
+					</td>
+				</tr>
+				<tbody>
+					<tr align="center">
+						<td>
+							<h3>Nombre</h3>
+						</td>
+						<td>
+							<h3><input type="text" name="txtnombre" size="25" required="" /></h3>
+						</td>
+					</tr>
+					<tr align="center">
+						<td>
+							<h3>Sexo</h3>
+						</td>
+						<td>
+							<input type="radio" name="femanino"> Femenino
+							<input type="radio" name="Masculino"> Masculino
+						</td>
+					</tr>
+					<tr align="center">
+						<td>
+							<h3>Color De Los Ojos</h3>
+						</td>
+						<td>
+							<select name="color">
+								<option value="verde">Verdes</option>
+								<option value="cafe">Cafes</option>
+								<option value="negro">Negros</option>
+								<option value="azul">Azules</option>
+							</select>
+						</td>
+					</tr>
+					<tr align="center">
+						<td>
+							<h3>Seleccione Las Que Aplique</h3>
+						</td>
+						<td>
+							<input type="checkbox" name="alto">Alto
+							<input type="checkbox" name="bajo">Bajo
+						</td>
+					</tr>
+					<tr align="center">
+						<td>
+							<h3>Describa Sus Habilidades</h3>
+						</td>
+						<td>
+							<textarea name="habilidades" cols="25" rows="5" size="30" required=""></s>></textarea>
+						</td>
+					</tr>
+					<tr align="center">
+						<td colspan="2">
+							<input type="submit" value="Enviar">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</form>
+
+	</body>
+</html>
